@@ -1,0 +1,42 @@
+.menucontainer {
+    height: 50px;
+    background-color: azure;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 30;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between; /* This will push the left and right sections apart */
+    align-items: center;
+    padding: 0 20px; /* Optional: for adding space on the left and right edges */
+}
+
+.logoimg {
+    height: 40px ;
+    width: auto;
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust space between Sign-In/Sign-Out and My Booking */
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust space between Booking and Logo */
+}
+
+.itemcontainer {
+    width: 120px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: grey;
+}
